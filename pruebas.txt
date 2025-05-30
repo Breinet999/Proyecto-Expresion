@@ -74,3 +74,118 @@ HTML
             <p class="main__text">Presentado por: Breyner Bernal y Manuel xd</p>
             <a class="main__btn" href="">BOTON</a>
         </section> -->
+
+
+
+
+
+     TARJETA POKEMON 
+     <section class="pokedex-section">
+  <h2 class="section-title">Pokédex Nacional</h2>
+
+  <!-- Tarjeta de Pokémon -->
+  <div class="pokemon-card fire">
+    <h3 class="pokemon-name">Charmander</h3>
+    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander">
+    <p class="pokemon-type">Tipo: Fuego</p>
+    <p class="pokemon-desc">Lanza fuego por su cola. Le gusta entrenar bajo el sol.</p>
+    <button class="pokemon-button">Ver más</button>
+  </div>
+</section>
+
+ESTILOS body {
+  background-color: #f2f2f2;
+  font-family: 'Press Start 2P', cursive;
+  padding: 20px;
+  color: #2b2b2b;
+}
+
+/* Sección */
+.pokedex-section {
+  background-color: #e60012;
+  border: 5px solid #222;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+.section-title {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+/* Tarjeta */
+.pokemon-card {
+  background-color: #fff;
+  border: 4px solid #444;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 4px 4px 0 #222;
+  margin-bottom: 20px;
+}
+
+.pokemon-card img {
+  width: 120px;
+  image-rendering: pixelated;
+}
+
+.pokemon-name {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #222;
+}
+
+.pokemon-type {
+  color: #fff;
+  background-color: #f08030;
+  padding: 6px;
+  margin: 10px auto;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+/* Descripción */
+.pokemon-desc {
+  font-size: 10px;
+  margin: 10px 0;
+}
+
+/* Botón estilo Pokémon */
+.pokemon-button {
+  background: linear-gradient(to bottom, #ffcc00, #cc9900);
+  color: #2b2b2b;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  border: 4px solid #3a3a3a;
+  border-radius: 12px;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  box-shadow: 0 4px #2b2b2b;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.pokemon-button:hover {
+  background: linear-gradient(to bottom, #ffe066, #ccaa00);
+  box-shadow: 0 2px #2b2b2b;
+  transform: translateY(2px);
+}
+
+/* Colores por tipo */
+.pokemon-card.fire {
+  border-color: #f08030;
+}
+
+.pokemon-card.water {
+  border-color: #6890f0;
+}
+
+.pokemon-card.grass {
+  border-color: #78c850;
+}
