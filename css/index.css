@@ -1,0 +1,238 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* - - - ESTILOS DEL MENU - - - */
+
+.menu {
+    
+    /* font-family: "Inter", sans-serif; */
+    /* font-family: "WDXL Lubrifont TC", sans-serif; */
+
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    /* background-color: #d92856; */
+    /* background-color: black; */
+    background-color: #2b2b2b;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    z-index: 10;
+
+}
+
+.menu__nav {
+    padding: 0 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+.menu__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.menu__link {
+    /* fuente importada  */
+    font-family: "Press Start 2P", system-ui;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    background-color: #2b2b2b;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+
+    /* color: #fca311; */
+    /* background-color: #030610; */
+    /* background-color: #d92856; */
+}
+
+.menu__link:hover {
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* color: #d92856; */
+    /* border: #FFCC00 2px solid; */
+    /* color: #FFCC00; */
+
+    /* color: #4FC3F7;
+    border: #4FC3F7 2px solid; */
+    color: #ffcc00;
+    border: #ffcc00 2px solid;
+    /* color: #fca311; */
+    transform: translateY(-1.5px);
+}
+.menu__item--logo, .menu__logo {
+    height: 100%;
+}
+.menu__link--logo{
+    /* fuente importada  */
+    font-family: "Press Start 2P", system-ui;
+}
+
+
+
+/* - - - CONTENIDO DEL MAIN- - - */
+.main {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main__video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.main__content {
+    /* background-color: #2b2b2b; */
+    object-fit: cover;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.main__logo {
+    width: 100%;
+}
+
+.main__btn {
+    background: linear-gradient(to bottom, #ffcc00, #cc9900);
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    border: 4px solid black;
+    border-radius: 12px;
+    width: 60%;
+    padding: 1.2rem;
+    box-shadow: 0 4px #2b2b2b;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.main__btn:hover {
+    background: linear-gradient(to bottom, #ffe066, #ccaa00);
+    /* box-shadow: 0 2px #6890F0; */
+    /* box-shadow: 0 4px #3b5ca8; */
+    border: 4px solid #3b5ca8;
+    color: #3b5ca8;
+    transform: translateY(2px);
+}
+
+/* - - - ESTILOS DE LA PRESENTACION - - - */
+
+/* ver a detalle  */
+
+
+.presentacion{
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+
+}
+.presentacion__content{
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: .8rem;
+    /* background-color: #F5F5F5; */
+    background-color: 	#CC0000;
+    display: flex;
+    justify-content: space-around;
+}
+.presentacion__article{
+    width: 60%;
+    /* background-color: #3b5ca8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    gap: 2rem;
+    color: white;
+    
+}
+.presentacion__figure{
+    width: 40%;
+    /* background-color: yellow; */
+}
+.presentacion__img{
+    width: 100%;
+    
+}
+
+/* ver a detalle  */
+
+
+/* --- FOOTER ----  */
+
+.footer {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 0.7rem;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+
+    background-color: #2b2b2b;
+    color: white;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+    border-top: 2px solid #ffcc00;
+}
+
+.footer__link {
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer__link:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+    transform: translateY(-1.5px);
+}
+
+.footer__logo {
+    height: 40px;
+}
+
+
+/* tiempo 50 minutos  */
+/* tiempo 25 */

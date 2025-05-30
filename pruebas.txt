@@ -1,0 +1,76 @@
+.main__content {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    text-align: center;
+    /* color: white; */
+  
+    background-color: #2b2b2b;
+    color: #ffcc00;
+    text-shadow: 2px 2px 2px black;
+
+    width: 60%;
+    padding: 1rem;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+    /* font-family: "Inter", sans-serif; */
+    /* font-family: "Press Start 2P", system-ui; */
+}
+
+.main__title {
+    font-family: "Press Start 2P", system-ui;
+}
+
+.main__subtitle,
+.main__subtitle,
+.main__text {
+    font-family: "Inter", sans-serif;
+}
+
+.main__btn {
+    background: linear-gradient(to bottom, #ffcc00, #cc9900);
+    color: black;
+    text-decoration: none;
+    font-family: 'Press Start 2P';
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+
+    border: 4px solid black;
+    border-radius: 12px;
+    width: 50%;
+    padding: 1.2rem;
+    box-shadow: 0 4px #2b2b2b;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.main__btn:hover {
+    background: linear-gradient(to bottom, #ffe066, #ccaa00);
+    box-shadow: 0 2px #2b2b2b;
+    transform: translateY(2px);
+}
+
+HTML 
+
+  <!-- <section class="main__content">
+            <h1 class="main__title">
+                <i class="material-symbols-outlined">
+                    joystick
+                </i>
+                Proyecto Final Expresion Grafica
+                <i class="material-symbols-outlined">
+                    joystick
+                </i>
+            </h1>
+            <h2 class="main__subtitle">Universidad Pedagogica Y Tecnologica De Colombia</h2>
+            <p class="main__text">Presentado por: Breyner Bernal y Manuel xd</p>
+            <a class="main__btn" href="">BOTON</a>
+        </section> -->
